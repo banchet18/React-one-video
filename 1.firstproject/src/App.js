@@ -3,10 +3,13 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import Footer from "./components/Footer";
 
 import "./styles/App.scss";
 import "./styles/Header.scss";
 import "./styles/Home.scss";
+import "./styles/Footer.scss";
+import "./styles/Contact.scss";
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
