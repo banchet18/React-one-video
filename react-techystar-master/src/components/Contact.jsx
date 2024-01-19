@@ -1,6 +1,8 @@
+import React from "react";
+
 const Contact = () => {
   return (
-    <div className="contact" id="contact">
+    <div className="contact">
       <main>
         <h1>Contact Us</h1>
 
@@ -29,4 +31,5 @@ const Contact = () => {
     </div>
   );
 };
+
 export default Contact;
